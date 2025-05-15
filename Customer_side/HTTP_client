@@ -1,4 +1,7 @@
 #include <HTTPClient.h>
+#include <WiFi.h>
+#include <WebServer.h>
+#include <ArduinoJson.h>
 WebServer server(80);
 void setup() {
   Serial.begin(115200);
